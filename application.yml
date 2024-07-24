@@ -1,8 +1,11 @@
+example.property: I AM DEv
+
 spring:
-  application:
-    name: config-server
-  cloud:
-    config:
-      server:
-        git:
-          uri: https://github.com/Pooriak/conf.git
+  datasource:
+    url: jdbc:mysql://localhost:3306/ostock_dev
+    username: root
+    password: root
+
+spring.sql.init.mode: always
+
+spring.jpa.hibernate.ddl-auto: update
