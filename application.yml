@@ -1,4 +1,4 @@
-example.property: I AM testtt
+example.property: I AM Dev
 
 spring:
   datasource:
