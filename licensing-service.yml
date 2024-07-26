@@ -1,0 +1,29 @@
+example.property: I AM licensing-service
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/ostock_dev
+    username: root
+    password: root
+
+spring.cloud.loadbalancer.ribbon.enabled: false
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  enabled-by-default: true
+
+spring.sql.init.mode: always
+
+spring.jpa.hibernate.ddl-auto: update
+
+eureka:
+  instance:
+    preferIpAddress: true
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://eurekaserver:8070/eureka/
