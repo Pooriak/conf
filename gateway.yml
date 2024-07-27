@@ -13,3 +13,10 @@ eureka:
     fetchRegistry: true
     serviceUrl:
       defaultZone: http://localhost:8070/eureka/
+
+spring:
+  cloud:
+    gateway:
+      discoery.locator:
+        enabled: true
+        lowerCaseServiceId: true
