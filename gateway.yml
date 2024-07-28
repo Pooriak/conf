@@ -31,4 +31,4 @@ spring:
             - Path=/organization/**
           filters:
             - RewritePath=/organization/(?<path>.*), /$\{path}
-            - AddResponseHeader=Pooria-is-Here, Inj
+            - AddRequestParameter=Organizationid, 405
