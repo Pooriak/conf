@@ -31,4 +31,4 @@ spring:
             - Path=/organization/**
           filters:
             - RewritePath=/organization/(?<path>.*), /$\{path}
-            - AddResponseHeader=pooria
+            - AddResponseHeader=Pooria-is-Here, Inj
