@@ -8,6 +8,12 @@ management:
         include: "*"
   enabled-by-default: true
 
+logging:
+  level:
+    com.netflix: WARN
+    org.springframework.web: WARN
+    com.example: DEBUG
+
 eureka:
   instance:
     preferIpAddress: true
