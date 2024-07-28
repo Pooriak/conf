@@ -29,6 +29,6 @@ spring:
           uri: lb://organization-service
           predicates:
             - Path=/organization/**
-            - Method=POST
           filters:
             - RewritePath=/organization/(?<path>.*), /$\{path}
+            - AddResponseHeader=pooria
