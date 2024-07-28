@@ -32,4 +32,3 @@ spring:
           filters:
             - RewritePath=/organization/(?<path>.*), /$\{path}
             - AddRequestParameter=Organizationid, 405
-            - PrefixPath=/api
