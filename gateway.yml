@@ -37,4 +37,3 @@ spring:
             - Path=/organization/**
           filters:
             - RewritePath=/organization/(?<path>.*), /$\{path}
-            - AddRequestParameter=Organizationid, 405
