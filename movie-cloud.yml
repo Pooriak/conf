@@ -11,3 +11,9 @@ logging:
     com:
       example:
         cloud: DEBUG
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
