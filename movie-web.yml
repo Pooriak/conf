@@ -2,6 +2,9 @@ server.port: 8181
 
   
 spring:
+  datasource:
+    username: sa
+    password: password
   h2:
     console:
       enabled: true
