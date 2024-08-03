@@ -10,4 +10,4 @@ logging:
   level:
     com:
       example:
-        cloud: INFO
+        cloud: DEBUG
