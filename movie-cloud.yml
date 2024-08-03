@@ -10,7 +10,7 @@ logging:
   level:
     com:
       example:
-        cloud: DEBUG
+        cloud: INFO
 
 management:
   endpoints:
